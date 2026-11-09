@@ -1,19 +1,29 @@
-# 💻 Assignment Boilerplate
+# 💻 Personal Homepage
 
-A starting point for assignment and exercise repos. It includes submission instructions, editor and Git configuration, and a pull request template so every assignment works the same way.
+Your personal homepage for Web Design 1. You will build it in three stages over the term, all in
+**this one repo**: plain HTML first, then a box structure, then CSS with Flexbox and Font Awesome
+icons. Each stage is published with GitHub Pages.
+
+This repo also includes the editor and Git configuration and the pull request template that every
+assignment in this course uses.
 
 > [!NOTE]
 > `.editorconfig`, `.gitattributes`, `.gitignore`, `.noai`, and the `.github` folder are
-> setup files that keep assignments consistent. Leave them alone.
+> setup files that keep assignments consistent. Leave them alone. `reset.css` is for Stage 3,
+> and the `examples` folder holds screenshots of finished pages. Keep them in the repo.
 
 ## 📋 Assignment Requirements
 
 > [!IMPORTANT]
 > **Start here: [read ASSIGNMENT.md →](ASSIGNMENT.md)**
 
-It has the requirements, grading criteria, and due date. Read it before you start, and check it again before you submit. This `README` only covers how to publish and submit your work.
+It has the requirements for all three stages, grading, and a checklist for each stage. Read it before you start, and check it again before you submit. This `README` only covers how to publish and submit your work.
 
 ## 🏁 Getting Started
+
+> [!IMPORTANT]
+> **Do this once, for Stage 1 only.** Stages 2 and 3 keep using the repo you create here.
+> Don't create a new repo for each stage.
 
 1. **Create your own repo from this template.**
    - At the top of this repo on GitHub, click the green **Use this template** button. (If a
@@ -21,7 +31,7 @@ It has the requirements, grading criteria, and due date. Read it before you star
 
      <img src=".github/images/use-this-template.png" alt="The Use this template button at the top right of the repo page" width="600">
    - Set **Owner** to your GitHub account.
-   - Give it a **Repository name** — use the assignment name, like `assignment-1`.
+   - Give it a **Repository name** — use `personal-homepage`.
 
      <img src=".github/images/create-repo-name.png" alt="The Create a new repository form with Owner set to your username and the Repository name filled in" width="600">
    - Set visibility to **Public** (GitHub Pages needs a public repo on a free account).
@@ -48,10 +58,13 @@ GitHub Pages publishes from the root, so `index.html` has to live there or your 
 
 ```
 index.html
+reset.css
 css/style.css
-js/script.js
-images/photo.jpg
+images/your-photo.jpg
 ```
+
+Put your photo in an `images` folder and point to it with `src="images/your-photo.jpg"`. The
+stylesheet (`css/style.css`) isn't needed until Stage 3.
 
 ## 🤖 AI Policy
 
@@ -149,6 +162,23 @@ Submission has two parts: publish the site, then submit a pull request URL in Ca
    - Click the red **Submit Assignment** button.
 
      <img src=".github/images/canvas-submit-url.png" alt="The Canvas Website URL form with a pull request URL entered, a comment for the instructor, and the Submit Assignment button highlighted" width="600">
+
+### 🔁 Three Stages, One Repo
+
+Each stage is its own Canvas assignment with its own pull request:
+
+1. **Stage 1:** open a pull request from `develop` into `main` and submit its URL. Don't merge it yet.
+2. **After Stage 1 is graded**, open that pull request on GitHub and click **Merge pull request** →
+   **Confirm merge**. This closes it so you can open a new one.
+3. **Stage 2:** keep working on `develop` in the same repo. When you're done, push and open a
+   **new** pull request from `develop` into `main`. Submit the new URL.
+4. **After Stage 2 is graded**, merge that pull request too, then do the same for **Stage 3**.
+
+Keep GitHub Pages on the `develop` branch the whole time; your live URL stays the same.
+
+> [!WARNING]
+> Only merge a pull request after that stage has been graded. Merging before grading closes the
+> pull request your instructor is about to review.
 
 > [!CAUTION]
 > Late or missing submissions are graded on what is in the pull request at the deadline, so push your final commits before you submit.
