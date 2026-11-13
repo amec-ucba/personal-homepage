@@ -26,7 +26,7 @@ request and open a new one for the next stage. The steps are in the
 > CSS, and follow this repo for getting your files and submitting:
 >
 > - **Your folder:** don't create a `web-design-1/homepage` folder by hand. Your folder is the
->   repo you create from this template and clone with GitHub Desktop, as described in the
+>   repo you create from this template and clone in WebStorm, as described in the
 >   [Getting Started guide](GETTING_STARTED.md). You create it **once**, for Stage 1.
 > - **Your file:** your page is `index.html` in the root of the repo. GitHub Pages only serves
 >   `index.html` at your site's root URL.
