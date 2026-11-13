@@ -15,7 +15,7 @@ This is a three-stage project, and every stage happens in **this same repo**:
 
 Each stage is submitted as its own pull request. After a stage is graded, you merge that pull
 request and open a new one for the next stage. The steps are in the
-[README](README.md#-three-stages-one-repo).
+[Submitting guide](SUBMITTING.md#-three-stages-one-repo).
 
 > [!IMPORTANT]
 > **The videos for each stage are in Canvas**, on that stage's assignment page. Stage 1 has no
@@ -27,12 +27,12 @@ request and open a new one for the next stage. The steps are in the
 >
 > - **Your folder:** don't create a `web-design-1/homepage` folder by hand. Your folder is the
 >   repo you create from this template and clone with GitHub Desktop, as described in the
->   [README](README.md#-getting-started). You create it **once**, for Stage 1.
+>   [Getting Started guide](GETTING_STARTED.md). You create it **once**, for Stage 1.
 > - **Your file:** your page is `index.html` in the root of the repo. GitHub Pages only serves
 >   `index.html` at your site's root URL.
 > - **Submitting:** don't zip your folder or upload a file. Publish your page to GitHub Pages and
 >   submit a pull request URL in Canvas, as described in the
->   [README](README.md#-submitting-the-assignment).
+>   [Submitting guide](SUBMITTING.md).
 
 ---
 
@@ -91,7 +91,7 @@ matter.
      Image** video in Canvas shows how.
 4. Point to it from your page:
    ```html
-   <img src="images/your-photo.jpg" alt="A photo of me">
+   <img src="../images/your-photo.jpg" alt="A photo of me">
    ```
 
 ```
@@ -121,7 +121,7 @@ personal-homepage/
 Your content will be different, but a finished Stage 1 page looks something like this. With no
 CSS, it uses the browser's default styles.
 
-![A plain HTML page with the name Eric Anderson as a heading, a pixel-art portrait with the caption Hero of the Common Man, and four paragraphs of text](examples/stage-1-example.png)
+![A plain HTML page with the name Eric Anderson as a heading, a pixel-art portrait with the caption Hero of the Common Man, and four paragraphs of text](../examples/stage-1-example.png)
 
 ### 🎉 Fun Symbols
 
@@ -180,7 +180,7 @@ areas. In Stage 3 you'll style these boxes.
 > [!IMPORTANT]
 > **Before you start:** make sure your Stage 1 pull request has been graded and **merged**, then
 > keep working on the `develop` branch in the same repo. See the
-> [README](README.md#-three-stages-one-repo).
+> [Submitting guide](SUBMITTING.md#-three-stages-one-repo).
 
 ### 🎬 Videos in Canvas
 
@@ -206,7 +206,7 @@ Follow Part 2 and add the same box structure to your page. When you're done, you
 
 This is the box structure for the header (you'll style it in Stage 3):
 
-![Box structure diagram: a header containing a div with class name, holding an h2 and an h1, beside a figure with class me, holding an img and a figcaption](examples/header-box-structure.png)
+![Box structure diagram: a header containing a div with class name, holding an h2 and an h1, beside a figure with class me, holding an img and a figcaption](../examples/header-box-structure.png)
 
 ### 🧮 Stage 2 Grading
 
@@ -277,7 +277,7 @@ make your homepage unique. Each selector is in the left column; you write the ru
 The header puts your name on the left and your photo and caption on the right by turning the
 header into a flex container.
 
-![Box structure of the header and the finished result: Hello, I'm and the name Eric Anderson on the left, the portrait and caption on the right, on a gray-blue background](examples/header-box-structure.png)
+![Box structure of the header and the finished result: Hello, I'm and the name Eric Anderson on the left, the portrait and caption on the right, on a gray-blue background](../examples/header-box-structure.png)
 
 | Selector | Styles to add |
 | --- | --- |
@@ -353,7 +353,7 @@ browsers can cache it if other sites use it too.
 
 Your colors, fonts, and content will be different:
 
-![The finished styled homepage: a full-width gray-blue header with Hello, I'm and Eric Anderson beside a rounded portrait, white centered main content with four paragraphs, and a full-width footer with Instagram, Facebook, and LinkedIn icons](examples/stage-3-example.png)
+![The finished styled homepage: a full-width gray-blue header with Hello, I'm and Eric Anderson beside a rounded portrait, white centered main content with four paragraphs, and a full-width footer with Instagram, Facebook, and LinkedIn icons](../examples/stage-3-example.png)
 
 ### 🎬 Video in Canvas
 
@@ -400,7 +400,7 @@ Stage 3 is worth **20 points**.
   selectors are spelled the same as the classes in your HTML (`.me`, not `me`).
 - **Icons showing as empty boxes?** Check the Font Awesome `<link>` and the class names.
 - **Can't open a new pull request?** Your previous one is probably still open. Merge it only after
-  it's graded; see the [README](README.md#-three-stages-one-repo).
+  it's graded; see the [Submitting guide](SUBMITTING.md#-three-stages-one-repo).
 
 **Having problems with the videos?**
 
@@ -428,4 +428,4 @@ GitHub Pages URL and your pull request URL so your instructor can see your code.
 
 ---
 
-The AI policy and submission instructions are in the [README](README.md).
+The AI policy and submission instructions are in the [README](../README.md).
